@@ -135,7 +135,7 @@ export default function Home() {
             <span className="text-[#FBA302]">Recruitment</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Selamat kepada seluruh peserta yang telah lolos seleksi BSC UNNES 2026
+            Selamat kepada seluruh pendaftar yang telah lolos seleksi BSC UNNES 2026
           </p>
         </div>
 
@@ -147,7 +147,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <label htmlFor="search" className="block text-sm font-semibold text-white">
-                Cari Status Penerimaan Anda
+                Cari Hasil Recruitment
               </label>
             </div>
             <p className="text-white/60 text-sm mb-4">Masukkan NIM Anda (10 digit angka)</p>
@@ -158,7 +158,7 @@ export default function Home() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="Contoh: 1234567890"
+                placeholder="Contoh: 2405100000"
                 maxLength={10}
                 pattern="\d{10}"
                 className="flex-1 px-5 py-3.5 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-[#FBA302] focus:border-transparent transition-all"
