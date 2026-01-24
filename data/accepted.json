@@ -1,0 +1,7 @@
+[
+  { "nim": "2405100018", "nama": "Ilham Shofa", "status": "diterima" },
+  { "nim": "1234567890", "nama": "Ahmad Rizki Pratama", "status": "diterima" },
+  { "nim": "1234567891", "nama": "Siti Nurhaliza", "status": "ditolak" },
+  { "nim": "1234567892", "nama": "Budi Santoso", "status": "diterima" },
+  { "nim": "1234567893", "nama": "Dewi Lestari", "status": "ditolak" }
+]
