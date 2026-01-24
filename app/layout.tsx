@@ -20,6 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
+      <head>
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon/favicon.ico" />
+        <meta name="theme-color" content="#021550" />
+      </head>
       <body className={inter.className}>
         {children}
       </body>
