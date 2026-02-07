@@ -17,7 +17,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<Candidate[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
-  const whatsappGroupLink = 'https://chat.whatsapp.com/YOUR_GROUP_INVITE_LINK';
+  const whatsappGroupLink = 'https://chat.whatsapp.com/I9LGk9LAemMDiZtKluVP6g?mode=gi_t';
 
   const fireConfetti = useCallback(() => {
     const count = 200;
