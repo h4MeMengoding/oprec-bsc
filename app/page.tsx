@@ -86,8 +86,9 @@ export default function Home() {
     setSearchResults(results);
     setHasSearched(true);
 
-    // Fire confetti if results found
-    if (results.length > 0) {
+    // Fire confetti only if any result is accepted ('diterima')
+    const hasAccepted = results.some((c) => c.status === 'diterima');
+    if (hasAccepted) {
       setTimeout(() => {
         fireConfetti();
       }, 300);
